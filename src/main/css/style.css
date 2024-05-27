@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3RybzJpbjFuanlpZ3ZzN2xhZzNxanYzdGc5cmZ2enA3N2EwYzkwZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9bTjZrytydVRK/giphy.gif);
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column, .right-column {
+    padding: 20px;
+}
+
+.left-column {
+    flex: 1;
+    max-width: 35%;
+}
+
+.right-column {
+    flex: 2;
+    max-width: 65%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.left-column p {
+    margin-top: 2px;
+}
+.subtitle {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.profile-photo {
+    max-width: 70%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.timeline-item .circle {
+    position: absolute;
+    left: -27px;
+    top: 9%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -18px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #333;
+}
+
+p, li {
+    transition: background-color 0.3s ease;
+}
+
+p:hover, li:hover {
+    background-color: #d4d4d4;
+}
+
+.works .skills-container {
+    display: flex;
+  }
+ 
+  .works .skills-column {
+    flex: 1;
+    padding: 0 10px;
+  }
+ 
+  .works .skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+ 
+  .works .skills ul li {
+    margin-bottom: 10px;
+  }
